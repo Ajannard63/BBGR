@@ -1,5 +1,5 @@
 import { AiOutlineClose } from "react-icons/ai";
-import ItemPanier from "./itemPanier";
+import ItemPanier from "./ItemPanier";
 import { Link } from "react-router-dom";
 import menuData from "../data/menu.json";
 
