@@ -1,0 +1,77 @@
+{
+  "entrees": [
+    {
+      "id": 1,
+      "title": "Salade du Jardin des Laurentides",
+      "description": "Cette salade est réalisée à partir des produits du Jardin des Laurentides situé à Mirabel. Fabriquée à partir d’un mélange de salade mesclun, de tomates de serre, de concombres et de carottes biologiques de champ, ainsi que d’une vinaigrette à base de sirop de bouleau et de moutarde des champs.",
+      "prix": 7.00,
+      "src": "salade.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Entrée de chips maison aux épices Boréales",
+      "description": "Cette délicieuse entrée de chips maison assaisonnées du mélange d’épices boréales peut aussi servir d’accompagnement de nos trois plats principaux. Ces patates proviennent d’un producteur situé à Mirabel.",
+      "prix": 5.00,
+      "src": "chips.jpg"
+    }
+  ],
+  "plats": [
+    {
+      "id": 3,
+      "title": "Sandwich du jardin",
+      "description": "Le sandwich du jardin est réalisé à partir des légumes biologiques produits par le Jardin des Laurentides situé à Mirabel. Le pain utilisé est d’une fabrication artisanale de la boulangerie des Monts à Saint-Jovite. Le fromage provient de la Fromagerie du Diable de Mont-Tremblant. Le brie utilisé est fait à partir de lait de vache en liberté dans les pâturages des montagnes de la région.",
+      "prix": 10.00 ,
+      "src": "sandwich-jardin.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Trilogie de mini poulet burger",
+      "description": "La trilogie de mini poulet burger est tout simplement sublime. Fait à partir de poitrines de poulet biologiques des Volailles du Nord de Saint-Jovite, elles sont marinées à partir d’une sélection d’épices boréales. Ces burgers sont montés sur un petit pain de fabrication artisanale de la Boulangerie des Monts à Saint-Jovite. Le fromage cheddar vieilli 5 ans provient de la Fromagerie du Diable de Mont-Tremblant. Ce fromage est fait à partir de lait de vache en liberté dans les pâturages des montagnes de la région. On y ajoute une petite tranche de tomate légèrement sucrée qui se marie bien avec la marinade du poulet. Ces délicieuses tomates proviennent du Jardin des Laurentides de Mirabel.",
+      "prix":12.00 ,
+      "src": "burger-poulet.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sandwich du bûcheron",
+      "description": "Le sandwich du bûcheron est fait à partir de porc effiloché confit dans du gras de canard des Volailles du Nord de Saint-Jovite. Notre porc biologique est soigneusement élevé directement par nous à Mont-Tremblant. La marinade est à base d’un mélange d’épices boréales et de sirop d’érable de l’Érablière du Nord de Sainte-Agathe. Le tout est surmonté d’une délicieuse salade de choux des Serres du Nord de Sainte-Agathe. La Boulangerie des Monts à Saint-Jovite nous a spécialement confectionné un délicieux pain brioché pour ce sandwich.",
+      "prix": 15.00 ,
+      "src": "sandwich-bucheron.jpg"
+    }
+  ],
+  "dessert": [
+    {
+      "id": 6,
+      "title": "Beignes de patate",
+      "description": "Les beignes de patate sont d’une fabrication artisanale basée sur une recette ancestrale. Les pommes de terre proviennent de la Ferme Hector Gagné de Mirabel. Ces beignes nécessitent aussi du sucre d’érable de l’Érablière du Nord de Sainte-Agathe",
+      "prix": {
+        "1": 2.50 ,
+        "3":6.00 ,
+        "6": 10.00 
+      },
+      "src": "beignes.jpg"
+    }
+  ],
+  "brevages":[
+    {
+      "id": 7,
+      "title":"Café",
+      "description":"Café artisanal nomade, saveurs authentiques, convivialité, expérience unique, fraîcheur garantie.",
+      "prix":3.00,
+			"src":"coffe.jpg"
+    },
+    {
+      "id": 8,
+      "title":"Boissons gazeuses",
+      "description":"Rafraîchissement pétillant aux saveurs naturelles et sucre équilibré.",
+      "prix":3.00,
+			"src":"boissons-gazeuse.jpg"
+    },
+    {
+      "id": 9,
+      "title":"Thé glacé",
+      "description":"Rafraîchissant thé glacé artisanal, citronnée et sucré parfaitement.",
+      "prix":4.00,
+			"src":"the-glace.jpg"
+    }
+  ]
+}
