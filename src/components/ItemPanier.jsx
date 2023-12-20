@@ -1,9 +1,31 @@
 import { useState } from 'react';
 import { FaTrash, FaMinus, FaPlus } from 'react-icons/fa';
+// Importation des images
+import beignes from '../assets/imgs/beignes.jpg';
+import boissonsGazeuse from '../assets/imgs/boissonsGazeuse.jpg';
+import burgerPoulet from '../assets/imgs/burgerPoulet.jpg';
+import salade from '../assets/imgs/salade.jpg';
+import chips from '../assets/imgs/chips.jpg';
+import sandwichJardin from '../assets/imgs/sandwichJardin.jpg';
+import sandwichBucheron from '../assets/imgs/sandwichBucheron.jpg';
+import coffe from '../assets/imgs/coffe.jpg';
+import theGlace from '../assets/imgs/theGlace.jpg';
+
+const images = {
+  beignes: beignes,
+  boissonsGazeuse: boissonsGazeuse,
+  burgerPoulet: burgerPoulet,
+  salade: salade,
+  chips: chips,
+  sandwichJardin: sandwichJardin,
+  sandwichBucheron: sandwichBucheron,
+  coffe: coffe,
+  theGlace: theGlace,
+};
 
 const ItemPanier = ({ item, isDropdown }) => {
   const [selectedQty, setSelectedQty] = useState('1');  // Valeur par défaut
-  const imagePath = `/assets/imgs/${item.src}`
+  const imagePath = images[item.src.split('.')[0]];
   // Utiliser useState pour suivre la quantité
   const [quantity, setQuantity] = useState(1);
 
@@ -15,6 +37,7 @@ const ItemPanier = ({ item, isDropdown }) => {
   const renderPrixV2 = () => {
     return item.prix[selectedQty] + " $";
   };
+  
   return (
     <div className="flex flex-row gap-1 bg-gray-200 p-1 rounded shadow-md">
       <div className="p-3">
