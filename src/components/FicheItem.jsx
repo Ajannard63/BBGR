@@ -21,7 +21,7 @@ const FicheItem = ({ item }) => {
       );
     }
   };
-  const imagePath = `/src/assets/imgs/${item.src}`
+  const imagePath = `/assets/imgs/${item.src}`
 
 
   return (
