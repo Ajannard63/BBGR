@@ -13,6 +13,10 @@ import Facture from "./pages/Facture";
 import Detail from "./pages/Detail";
 import Authentification from "./pages/Authentification";
 import { useState } from "react";
+
+// Importation des images
+import beignes from './assets/imgs/beignes.jpg';
+
 const App = () => {
   const [isLogin, setIsLogin] = useState(false);
   const toggleIsLogin = () => {

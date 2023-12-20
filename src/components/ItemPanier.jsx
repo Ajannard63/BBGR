@@ -3,7 +3,7 @@ import { FaTrash, FaMinus, FaPlus } from 'react-icons/fa';
 
 const ItemPanier = ({ item, isDropdown }) => {
   const [selectedQty, setSelectedQty] = useState('1');  // Valeur par défaut
-  const imagePath = `/src/assets/imgs/${item.src}`
+  const imagePath = `/assets/imgs/${item.src}`
   // Utiliser useState pour suivre la quantité
   const [quantity, setQuantity] = useState(1);
 
